@@ -1,0 +1,25 @@
+touch bash1.txt
+cd ~
+pwd
+mkdir test1
+cd test1
+touch 1 2 3
+ls
+cd ~
+mkdir test2
+rmdir test2
+rm ~/test1/2
+mkdir ~/test3
+touch ~/test3/file1 ~/test3/file2
+rm -r ~/test3
+mkdir ~/test4
+mv ~/test1/1 ~/test1/3 ~/test4/
+echo line >> ~/test4/1
+echo line >> ~/test4/1
+echo line >> ~/test4/1
+cat ~/test4/1
+echo line >> ~/test4/3
+echo line >> ~/test4/3
+echo line >> ~/test4/3
+cat ~/test4/1 ~/test4/3
+sed -i 'c\new_line' ~/test4/1
